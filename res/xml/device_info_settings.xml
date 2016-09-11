@@ -81,10 +81,12 @@
 
         <!-- RR firmware version -->
         <Preference android:key="rr_version"
+                style="?android:preferenceInformationStyle"
                 android:enabled="false"
                 android:shouldDisableView="false"
                 android:title="@string/rr_version_title"
-                android:summary="@string/rr_version_default" />
+                android:summary="@string/rr_version_default" 
+                android:icon="@drawable/ic_rr_tools_tint"/>
 
         <!-- CyanogenMod API Version -->
         <Preference android:key="mod_api_level"
@@ -130,6 +132,7 @@
 
         <!-- Build date -->
         <Preference android:key="build_date"
+                style="?android:preferenceInformationStyle"
                 android:enabled="false"
                 android:shouldDisableView="false"
                 android:title="@string/build_date"
@@ -137,6 +140,7 @@
 
         <!-- Detailed build version -->
         <Preference android:key="build_number"
+                style="?android:preferenceInformationStyle"
                 android:enabled="false"
                 android:shouldDisableView="false"
                 android:title="@string/build_number"
