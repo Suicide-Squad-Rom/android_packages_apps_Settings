@@ -13,12 +13,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen, RR version -->
-    <string name="rr_version_title">RR Version</string>
-    <string name="rr_version_default">Unknown</string>
-
-     <string name="rr_mod_version">Resurrection version</string>
-	<string name="build_date">Build Date</string>
-	<string name="mod_version_default">Default</string>
+    <string name="rr_mod_version">Resurrection version</string>
+    <string name="build_date">Build Date</string>
+    <string name="mod_version_default">Default</string>
 
     <!-- About RR -->
     <string name="about_rr_settings_title"><b>About Resurrection</b></string>
